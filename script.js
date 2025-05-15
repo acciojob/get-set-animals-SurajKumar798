@@ -1,10 +1,10 @@
 //complete this code
 class Animal {
 	constructor(species){
-		this.species = species;
+		this.speciesName = species;
 	}
 	get species(){
-		return this.species;
+		return this.speciesName;
 	}
 	makeSound(){
 		console.log(`The ${this.species} makes a sound`);
